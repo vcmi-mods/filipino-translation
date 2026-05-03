@@ -32,7 +32,7 @@ Please create a new issue [here](https://github.com/vcmi-mods/filipino-translati
 2. Go to [this](https://huggingface.co/spaces/k2-fsa/OmniVoice) OmniVoice TTS
 3. Click on _Clone voice_
 4. Paste the speech text
-5. Select _Serbian_
+5. Select _Filipino_
 4. Upload a voice
 3. Paste the reference text
 6. Click on _Generate_
