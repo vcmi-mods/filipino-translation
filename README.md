@@ -25,3 +25,31 @@ Please create a new issue [here](https://github.com/vcmi-mods/filipino-translati
 1. Itakda ang wika sa _Filipino_
 1. I-install ang _Pagsasalin sa Filipino_ mod
 1. Ilunsad ang laro
+
+# How to dub
+
+1. Copy a prolog/epilog from [`filipino-translation/content/config/vcmi-filipino/campaigns.json`](https://github.com/vcmi-mods/filipino-translation/tree/vcmi-1.7/mods/AITranslated/Content/config/vcmi-filipino-ai/)
+2. Go to [this](https://huggingface.co/spaces/k2-fsa/OmniVoice) OmniVoice TTS
+3. Click on _Clone voice_
+4. Paste the speech text
+5. Select _Serbian_
+4. Upload a voice
+3. Paste the reference text
+6. Click on _Generate_
+7. Download the audio file
+8. Retrieve the property for the speech in the [`filipino-translation/content/config/vcmi-filipino/campaigns.json`](https://github.com/vcmi-mods/filipino-translation/tree/vcmi-1.7/mods/AITranslated/Content/config/vcmi-filipino-ai/) file
+9. Retrieve the related audio filename in the [empty-translation mod](https://github.com/vcmi-mods/empty-translation?tab=readme-ov-file#dubbing)
+10. Rename the audio file
+11. Move the file to `filipino-translation/content/sounds/` folder
+
+# How to contribute
+
+1. Go to the GitHub mod page: https://github.com/vcmi-mods/filipino-translation
+2. Fork the repository by clicking on the "Fork" button
+3. Browse to the file you want to change
+4. Click on the pencil button to edit the file
+5. Edit the file
+6. Click on the "Commit changes..." button
+7. Click on the "Pull request" tab
+8. Click on the "Create Pull Request" button
+9. Write a description and create the PR (Pull Request)
