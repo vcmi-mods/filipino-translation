@@ -6,21 +6,21 @@
 	"contact" : "",
 	"language" : "filipino",
 	"modType" : "Translation",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" : 
-	{ 
-		"1.0.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 	"german" : {
 		"name" : "Filipino-Übersetzung",
-		"description" : "Philippinische Übersetzung von Heroes of Might and Magic III: Complete Edition"	
+		"description" : "Philippinische Übersetzung von Heroes of Might and Magic III: Complete Edition"
 	},
 	"filipino" : {
 		"name" : "Pagsasalin sa Filipino",
-		"description" : "Salin sa Filipino (Tagalog) ng Heroes of Might and Magic III: Kumpletong Edisyon"	
+		"description" : "Salin sa Filipino (Tagalog) ng Heroes of Might and Magic III: Kumpletong Edisyon"
 	},
 	"translations" : [
 		"config/vcmi-filipino/game.json",
